@@ -1055,3 +1055,35 @@ console.log(rainForests);
 - [x] `["Cerrado", "Congo"]`
 - [ ] `["Congo"]`
 - [ ] `["Amazon","Borneo"]`
+
+#### Q94. Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?
+
+```js
+const numbers=[1,2,3,4,5];
+//MISSING LINE
+```
+- [x] `const [one,two,three,four,five]=numbers`
+- [ ] `const {one,two,three,four,five}=numbers`
+- [ ] `const [one,two,three,four,five]=[numbers]`
+- [ ] `const {one,two,three,four,five}={numbers}`
+         
+#### Q95. 
+```js
+const obj={
+a:1,
+b:2,
+c:3
+}
+
+const obj2={
+...obj,
+a:0,
+}
+
+console.log(obj2.a,obj2.b)
+```
+- [ ] Nothing, it will throw an error
+- [x] 0 2
+- [ ] undefined 2 
+- [ ] undefined 2 
+
